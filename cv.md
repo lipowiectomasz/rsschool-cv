@@ -1,15 +1,23 @@
 # rsschool-cv
 
+---
+
 ## Tomasz Lipowiec
 
 ### Junior Fullstack Developer
 
+***
+
 ### Contact information:
+
+***
 
 **Phone:** +48 999 999 999 \
 **E-mail:** lipowiectomasz@gmail.com
 
 ### Briefly about myself:
+
+***
 
 Hi, my name is Tomek,
 IT is my passion and I am exploring it since
@@ -23,6 +31,8 @@ of web applications.
 
 ### Skills:
 
+***
+
 - PHP
 - JavaScript
 - jQuery
@@ -34,6 +44,8 @@ of web applications.
 - Pimcore
 
 ### Code examples:
+
+***
 
 Instruction:\
 *This code does not execute properly. Try to figure out why.*\
@@ -51,6 +63,8 @@ function multiply(a, b){
 ```
 
 ### Work Experience:
+
+***
 
 #### Lemonmind - part time
 *Full Stack Developer PHP, JS | Oct 2023 - Present*\
@@ -75,6 +89,8 @@ Responsible for creating the backend.
 
 ### Education:
 
+***
+
 **Master of Science in Electronics and
 Telecommunications**\
 *Gdańsk University of Technology | Mar 2023 - Present*
@@ -84,5 +100,7 @@ Telecommunications**\
 Feb 2023*
 
 ### English language:
+
+***
 
 English B2 (Achieved at universities)
