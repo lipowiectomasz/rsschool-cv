@@ -1,1 +1,1 @@
-# rsschool-cv
+https://lipowiectomasz.github.io/rsschool-cv/
