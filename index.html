@@ -1,63 +1,91 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=idge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <title>Rsschool-cv-html</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <header>
-    <h1>Tomasz Lipowiec CV</h1>
-    <div class="contact-info">
-        <p>Phone: +48 999 999 999</p>
-        <p>E-mail: lipowiectomasz@gmail.com</p>
+    <div class="title-box">
+        <h1>Tomasz Lipowiec</h1>
+        <p>
+            Fullstack Developer
+        </p>
     </div>
+    <nav>
+        <a class="nav-anchor" href="#about">About</a>
+        <a class="nav-anchor" href="#skills">Skills</a>
+        <a class="nav-anchor" href="#code">Code</a>
+        <a class="nav-anchor" href="#experience">Experience</a>
+        <a class="nav-anchor" href="#education">Education</a>
+        <a class="nav-anchor" href="#languages">Languages</a>
+    </nav>
 </header>
 <main>
-    <section class="about">
-        <p>Hi, my name is Tomek,
-            IT is my passion and I am exploring it since
-            I choosed IT profile in High School.
-            Right now I am student of Gdańsk University
-            of Technology currently working on my
-            Master degree of Electronics
-            and Telecommunications.
-            My main hobby is programming
-            of web applications.</p>
+    <section id="about" class="about">
+        <div>
+            <img class="avatar" src="assets/avatar-min.jpg" alt="Profile image">
+        </div>
+        <div class="about-desc">
+            <h2>About</h2>
+            <p>Hi, my name is Tomek,
+                IT is my passion and I am exploring it since
+                I choosed IT profile in High School.
+                Right now I am student of Gdańsk University
+                of Technology currently working on my
+                Master degree of Electronics
+                and Telecommunications.
+                My main hobby is programming
+                of web applications.</p>
+        </div>
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <p>Phone: +48 999 999 999</p>
+            <p>E-mail: lipowiectomasz@gmail.com</p>
+        </div>
+
     </section>
-    <section class="skills">
-        <h3>Skills:</h3>
-        <ul>
-            <li>PHP</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Vue</li>
-            <li>Git</li>
-            <li>HTML</li>
-            <li>CSS, SASS</li>
-            <li>Symfony</li>
-            <li>Pimcore</li>
-        </ul>
-    </section>
-    <section class="code-example">
-        <h3>Code examples</h3>
-        <p>Instruction:</p>
-        <p>This code does not execute properly. Try to figure out why.</p>
-        <p>function multiply(a, b){
+    <div class="languages-n-skills">
+        <section id="languages" class="languages">
+            <h2>Languages</h2>
+            <p>English B2 (Achieved at universities)</p>
+            <p>Polish Native</p>
+        </section>
+        <section id="skills" class="skills">
+            <h2>Skills:</h2>
+            <ul class="skills-list">
+                <li style="background-color: #184C65;">PHP</li>
+                <li style="background-color: #546A7B;">JavaScript</li>
+                <li style="background-color: #27546B;">jQuery</li>
+                <li style="background-color: #4D6779;">Vue</li>
+                <li style="background-color: #2F586E;">Git</li>
+                <li style="background-color: #496578;">HTML</li>
+                <li style="background-color: #365B70;">CSS, SASS</li>
+                <li style="background-color: #456376;">Symfony</li>
+                <li style="background-color: #3E5F73;">Pimcore</li>
+            </ul>
+        </section>
+    </div>
+    <section id="code" class="code-example">
+        <h2>Code examples</h2>
+        <p>Instruction</p>
+        <p>This code does not execute properly. Try to figure out why:</p>
+        <p class="code-text">function multiply(a, b){
             a * b
             }</p>
-        <p>Solution</p>
-        <p>function multiply(a, b){
+        <p>Solution:</p>
+        <p class="code-text">function multiply(a, b){
             return a * b
             }</p>
     </section>
-    <section class="work-experience">
-        <h3>Work Experience</h3>
+    <section id="experience" class="work-experience">
+        <h2>Work Experience</h2>
         <div>
             <h4>Lemonmind - part time</h4>
-            <p>Full Stack Developer PHP, JS | Oct 2023 - Present</p>
+            <p class="job-pos">Full Stack Developer PHP, JS | Oct 2023 - Present</p>
             <p>Maintaining and developing applications built on Pimcore</p>
             <p>Projects:</p>
             <ul>
@@ -75,7 +103,7 @@
         </div>
         <div>
             <h4>Lemonmind - internship</h4>
-            <p>Software Developer PHP | Jul 2023 - Sep 2023</p>
+            <p class="job-pos">Software Developer PHP | Jul 2023 - Sep 2023</p>
             <p>A member of the team responsible for the Ai.Marketer
                 application, which is a generative Ai for the PIM platform
                 capable of generating content based on integrations with
@@ -85,26 +113,25 @@
         </div>
         <div></div>
     </section>
-    <section class="education">
-        <h3>Education</h3>
+    <section id="education" class="education">
+        <h2>Education</h2>
         <div>
             <h4>Master of Science in Electronics and
                 Telecommunications</h4>
-            <p>Gdańsk University of Technology | Mar 2023 - Present</p>
+            <p class="uni">Gdańsk University of Technology | Mar 2023 - Present</p>
         </div>
         <div>
             <h4>Bachelor of Science in Data Communications</h4>
-            <p>Bydgoszcz University of Science and Technology | Oct 2019 -
+            <p class="uni">Bydgoszcz University of Science and Technology | Oct 2019 -
                 Feb 2023</p>
         </div>
     </section>
-    <section class="languages">
-        <h3>Languages</h3>
-        <p>English B2 (Achieved at universities)</p>
-    </section>
 </main>
 <footer>
-
+    <a href="https://github.com/lipowiectomasz">GitHub</a>
+    <p>2024</p>
+    <img class="rs-logo" src="assets/rs-school-logo.svg" alt="rs-school-logo">
+    <a href="https://rs.school/courses/javascript">JavaScript / Front-end Course</a>
 </footer>
 </body>
 </html>
