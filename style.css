@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    background-color: #FDFDFF;
+    color: #cdc7c7;
+    font-family: Courier;
+    width: 1200px;
+    margin: 50px auto;
+    box-shadow: 15px 15px 15px 0 #474747;
+}
+header{
+    height: 150px;
+    display: flex;
+    top: 0;
+    width: 100%;
+    /*height: 150px;*/
+}
+
+.nav-anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.title-box{
+    box-sizing: border-box;
+    padding: 20px;
+    min-width: 330px;
+    background-color: #62929E;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #546A7B;
+}
+
+a{
+    color: #C6C5B9;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+a:hover{
+    color: #5d7c95;
+}
+
+main{
+    /*padding-top: 150px;*/
+}
+
+.about{
+    display: flex;
+    height: 250px;
+}
+.about div{
+    box-sizing: border-box;
+    color: black;
+}
+.avatar{
+    height: 250px;
+    width: 330px;
+}
+.about-desc{
+
+    padding: 20px;
+}
+.contact-info{
+    padding: 20px;
+    background-color: #C6C5B9;
+}
+
+.skills{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #546A7B;
+}
+
+.languages-n-skills{
+    display: flex;
+}
+
+.skills h3{
+    width: 650px;
+}
+
+.skills-list{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 650px;
+    justify-content: center;
+    padding: 0;
+}
+.skills-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 70px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 5px 5px 5px 0 #474747;
+}
+.skills-list li:hover{
+    transform: scale(1.1);
+}
+
+.code-example{
+    padding: 20px;
+    background-color: #393D3F;
+}
+
+.code-text{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.job-pos{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.uni{
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+.work-experience{
+    padding: 20px;
+    color: black;
+}
+
+.education{
+    padding: 20px;
+    background-color: #546A7B;
+}
+
+.languages{
+    box-sizing: border-box;
+    min-width: 330px;
+    padding: 20px;
+    background-color: #62929E;
+}
+
+.rs-logo{
+    width: 200px;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #393D3F;
+    gap: 12px;
+}
